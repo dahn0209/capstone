@@ -11,7 +11,7 @@ createdb note-ary
 createdb note-ary-test 
 ``` 
 
-* run databases
+* Run databases
 
 ```
 npm run seed
