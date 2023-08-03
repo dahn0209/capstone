@@ -102,7 +102,7 @@ const AllOrgs = () => {
   const [organizations, setOrganizations] = useState([])
   const [orgWasEdited, setOrgWasEdited] = useState(false)
 
-  // fetch all orgs
+  // fetch all orgs   ////useEffect() is like react cycle componenetDIdmount and componentDiduptate
   useEffect(() => {
     const fetchAllOrgs = async () => {
       try {
